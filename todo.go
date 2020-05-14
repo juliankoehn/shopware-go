@@ -20,8 +20,6 @@ type OrderTransaction struct{}
 type CmsPage struct{}
 type NewsletterRecipient struct{}
 
-type OrderCustomer struct{}
-
 type CartPrice struct{}
 type CalculatedPrice struct{}
 
