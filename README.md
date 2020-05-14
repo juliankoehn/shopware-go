@@ -70,6 +70,8 @@ NewsletterRecipient
 - [X] ProductStreamTranslation
 - [X] ProductTranslation
 - [X] ProductVisibility
+- [X] Promotion
+- [X] PromotionTranslation
 - [X] Rule
 - [X] RuleCondition
 - [X] Salutation

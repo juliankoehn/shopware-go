@@ -16,7 +16,6 @@ type PromotionSalesChannel struct{}
 type PromotionDiscountPrice struct{}
 type PromotionDiscount struct{}
 type PromotionSetGroup struct{}
-type PromotionTranslation struct{}
 
 type OrderDelivery struct{}
 
