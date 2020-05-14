@@ -12,7 +12,6 @@ type User struct{}
 
 type SeoUrlTranslation struct{}
 
-type PromotionSalesChannel struct{}
 type PromotionDiscountPrice struct{}
 type PromotionDiscount struct{}
 

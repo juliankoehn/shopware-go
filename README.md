@@ -72,6 +72,8 @@ NewsletterRecipient
 - [X] ProductVisibility
 - [X] Promotion
 - [X] PromotionTranslation
+- [X] PromotionSetGroup
+- [X] PromotionSetGroupRule
 - [X] Rule
 - [X] RuleCondition
 - [X] Salutation
