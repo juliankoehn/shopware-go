@@ -1,10 +1,4 @@
-TODO:
-[ ] 
-
-
-OrderAddress
-OrderCustomer
-OrderLineItem
+# Shopware 6.2 Golang Sales-Channel API
 
 PromotionDiscountPrice
 NewsletterRecipient
