@@ -37,7 +37,8 @@ func New(token, endpoint string) *Client {
 		BaseURL: endpoint,
 		Headers: map[string]string{
 			"sw-access-key":         token,
-			"Content-Type":          "application/json",
+			"Accept":                "application/json",
+			"content-type":          "application/json",
 			"X-Shopware-User-Agent": fmt.Sprintf("sdk shopware.go/%s", Version),
 		},
 	}

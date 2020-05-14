@@ -12,9 +12,10 @@ import (
 )
 
 var (
-	server   *httptest.Server
-	token    = "SWSCOGXOAGGXCMLNODRQTMRQAA"    // testing endpoint
-	endpoint = "https://hundemode.julian.pro/" // testing endpoint
+	server         *httptest.Server
+	token          = "SWSCOGXOAGGXCMLNODRQTMRQAA"       // testing endpoint
+	endpoint       = "https://hundemode.julian.pro/"    // testing endpoint
+	exampleProduct = "c7bca22753c84d08b6178a50052b4146" // product with options
 )
 
 func readTestData(fileName string) string {
