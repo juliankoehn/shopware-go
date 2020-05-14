@@ -14,10 +14,11 @@ type SnippetSet struct{}
 
 type User struct{}
 
-type CountryTranslation struct{}
-type CountryStateTranslation struct{}
 type CustomerGroupTranslation struct{}
 type PaymentMethodTranslation struct{}
 type ShippingMethodTranslation struct{}
 type DeliveryTimeTranslation struct{}
 type SeoUrlTranslation struct{}
+
+type CountryTranslation struct{}
+type CountryStateTranslation struct{}

@@ -3,7 +3,7 @@ TODO:
 Customer
 CustomerAddress
 CustomerGroup
-Country
+
 Order
 OrderAddress
 OrderCustomer
@@ -20,8 +20,14 @@ Implemented Models / Entities:
 
 - [X] Category
 - [X] CategoryTranslation
+- [X] Country
+- [X] CountryTranslation
+- [X] CountryState
+- [X] CountryStateTranslation
 - [X] Currency
 - [X] CurrencyTranslation
+- [X] DeliveryTime
+- [X] DeliveryTimeTranslation
 - [X] Property
 - [X] Language
 - [X] Locale
