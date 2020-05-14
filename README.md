@@ -6,8 +6,6 @@ OrderAddress
 OrderCustomer
 OrderLineItem
 
-shippingMethods
-ShippingMethodPrice
 PromotionDiscountPrice
 NewsletterRecipient
 PaymentMethod
@@ -78,6 +76,9 @@ Implemented Models / Entities:
 - [X] SalesChannelTypeTranslation
 - [X] SeoUrl
 - [X] SeoUrlTemplate
+- [X] ShippingMethod
+- [X] ShippingMethodPrice
+- [X] ShippingMethodTranslation
 - [X] Tag
 - [X] Tax
 - [X] TaxRule
