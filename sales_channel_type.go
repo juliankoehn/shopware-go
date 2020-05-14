@@ -8,7 +8,7 @@ type SalesChannelType struct {
 	Manufacturer    string                         `json:"manufacturer"`
 	Description     string                         `json:"description"`
 	DescriptionLong string                         `json:"descriptionLong"`
-	CoverUrl        string                         `json:"coverUrl"`
+	CoverURL        string                         `json:"coverUrl"`
 	IconName        string                         `json:"iconName"`
 	ScreenshotUrls  []string                       `json:"screenshotUrls"`
 	SalesChannels   []*SalesChannel                `json:"salesChannels"`
