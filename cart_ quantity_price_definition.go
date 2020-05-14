@@ -19,7 +19,7 @@ func NewQuantityPriceDefinition(price, listPrice float64, taxRules []*TaxRule, q
 		ListPrice:                listPrice,
 		TaxRules:                 taxRules,
 		Quantity:                 quantity,
-		isCalculated:             isCalculated,
+		IsCalculated:             isCalculated,
 		Precision:                precision,
 		ReferencePriceDefinition: referencePrice,
 	}
