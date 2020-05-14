@@ -1,7 +1,7 @@
 TODO:
 [ ] 
 
-Order
+
 OrderAddress
 OrderCustomer
 OrderLineItem
@@ -50,6 +50,7 @@ NewsletterRecipient
 - [X] NumberRangeTranslation
 - [X] NumberRangeType
 - [X] NumberRangeTypeTranslation
+- [X] Order
 - [X] PaymentMethod
 - [X] PaymentMethodTranslation
 - [X] Product

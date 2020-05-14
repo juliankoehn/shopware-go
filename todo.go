@@ -23,4 +23,8 @@ type NewsletterRecipient struct{}
 type OrderAddress struct{}
 type OrderCustomer struct{}
 type OrderLineItem struct{}
-type Order struct{}
+
+type CartPrice struct{}
+type CalculatedPrice struct{}
+
+type StateMachineState struct{}
