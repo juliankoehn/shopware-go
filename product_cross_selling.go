@@ -18,5 +18,3 @@ type ProductCrossSelling struct {
 	AssignedProducts []*ProductCrossSellingAssignedProduct `json:"assignedProducts"`
 	Translations     []*ProductCrossSellingTranslation     `json:"translations"`
 }
-
-type ProductStream struct{}

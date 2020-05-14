@@ -1,13 +1,18 @@
 TODO:
 [ ] SalesChannel
+
 OrderLineItem
 Rule
 Language
-ProductStream
-
+ShippingMethodPrice
+PromotionDiscountPrice
 
 Implemented:
 
+[X] Category
+[X] CategoryTranslation
+[X] Currency
+[X] CurrencyTranslation
 [X] Property
 [X] MediaFolder
 [X] MediaFolderConfiguration
@@ -19,6 +24,7 @@ Implemented:
 [X] ProductCrossSellingTranslation
 [X] ProductCrossSellingAssignedProduct
 [X] ProductConfiguratorSetting
+[X] ProductExport
 [X] ProductKeywordDictionary
 [X] ProductManufacturer
 [X] ProductManufacturerTranslation
@@ -26,6 +32,9 @@ Implemented:
 [X] ProductPrice
 [X] ProductReview
 [X] ProductSearchKeyword
+[X] ProductStream
+[X] ProductStreamFilter
+[X] ProductStreamTranslation
 [X] ProductTranslation
 [X] ProductVisibility
 
