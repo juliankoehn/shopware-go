@@ -31,6 +31,7 @@ type MediaEntity struct {
 	ThumbnailsRo         string                 `json:"thumbnailsRo"`
 }
 
+// MediaMetaData is meta data!!
 type MediaMetaData struct {
 	Type   int     `json:"type"`
 	Width  float64 `json:"width"`
