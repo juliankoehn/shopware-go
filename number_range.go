@@ -4,7 +4,7 @@ package shopware
 // https://github.com/shopware/platform/blob/6.2/src/Core/System/NumberRange/NumberRangeEntity.php
 type NumberRange struct {
 	Entity
-	TypeId                   string                     `json:"typeId"`
+	TypeID                   string                     `json:"typeId"`
 	Global                   bool                       `json:"global"`
 	Name                     string                     `json:"name"`
 	Description              string                     `json:"description"`
