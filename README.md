@@ -76,6 +76,8 @@ NewsletterRecipient
 - [X] PromotionSetGroupRule
 - [X] PromotionSalesChannel
 - [X] PromotionIndividualCode
+- [X] PromotionDiscountPrice
+- [X] PromotionDiscount
 - [X] Rule
 - [X] RuleCondition
 - [X] Salutation

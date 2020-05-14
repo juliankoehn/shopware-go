@@ -13,8 +13,6 @@ type User struct{}
 
 type SeoUrlTranslation struct{}
 
-type PromotionDiscount struct{}
-
 type OrderDelivery struct{}
 
 type Plugin struct{}
