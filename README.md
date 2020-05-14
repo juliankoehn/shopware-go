@@ -1,6 +1,5 @@
 # Shopware 6.2 Golang Sales-Channel API
 
-PromotionDiscountPrice
 NewsletterRecipient
 
 ### Implemented Models / Entities:

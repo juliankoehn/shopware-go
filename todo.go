@@ -18,9 +18,6 @@ type OrderTransaction struct{}
 type CmsPage struct{}
 type NewsletterRecipient struct{}
 
-type CartPrice struct{}
-type CalculatedPrice struct{}
-
 type StateMachineState struct{}
 
-type PriceDefinitionInterface struct{}
+type CalculatedTax struct{}
