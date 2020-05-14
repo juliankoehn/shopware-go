@@ -1,7 +1,5 @@
 package shopware
 
-type GoogleShoppingAccount struct{}
-
 type DocumentBaseConfigDefinition struct{}
 
 type PromotionSalesChannel struct{}
@@ -19,6 +17,3 @@ type PaymentMethodTranslation struct{}
 type ShippingMethodTranslation struct{}
 type DeliveryTimeTranslation struct{}
 type SeoUrlTranslation struct{}
-
-type CountryTranslation struct{}
-type CountryStateTranslation struct{}

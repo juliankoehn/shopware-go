@@ -28,6 +28,9 @@ Implemented Models / Entities:
 - [X] CurrencyTranslation
 - [X] DeliveryTime
 - [X] DeliveryTimeTranslation
+- [X] GoogleAccountCredential
+- [X] GoogleShoppingAccount
+- [X] GoogleShoppingMerchantAccount
 - [X] Property
 - [X] Language
 - [X] Locale
@@ -69,6 +72,8 @@ Implemented Models / Entities:
 - [X] SalesChannelTranslation
 - [X] SalesChannelType
 - [X] SalesChannelTypeTranslation
+- [X] SeoUrl
+- [X] SeoUrlTemplate
 - [X] Tag
 - [X] Tax
 - [X] TaxRule
