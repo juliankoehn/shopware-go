@@ -25,3 +25,8 @@ type Plugin struct{}
 type OrderTransaction struct{}
 type CmsPage struct{}
 type NewsletterRecipient struct{}
+
+type OrderAddress struct{}
+type OrderCustomer struct{}
+type OrderLineItem struct{}
+type Order struct{}
