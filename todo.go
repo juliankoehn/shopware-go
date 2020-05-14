@@ -23,3 +23,4 @@ type OrderDelivery struct{}
 
 type Plugin struct{}
 type OrderTransaction struct{}
+type CmsPage struct{}

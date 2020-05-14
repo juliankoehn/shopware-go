@@ -38,5 +38,3 @@ type Category struct {
 	MainCategories          []*MainCategory        `json:"mainCategories"`
 	SeoUrls                 []*SeoUrl              `json:"seoUrls"`
 }
-
-type CmsPage struct{}
