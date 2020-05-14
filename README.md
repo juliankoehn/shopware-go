@@ -8,9 +8,8 @@ OrderLineItem
 
 PromotionDiscountPrice
 NewsletterRecipient
-PaymentMethod
 
-Implemented Models / Entities:
+### Implemented Models / Entities:
 
 - [X] Category
 - [X] CategoryTranslation
@@ -27,6 +26,11 @@ Implemented Models / Entities:
 - [X] CurrencyTranslation
 - [X] DeliveryTime
 - [X] DeliveryTimeTranslation
+- [X] Document
+- [X] DocumentBaseConfig
+- [X] DocumentBaseConfigSalesChannel
+- [X] DocumentType
+- [X] DocumentTypeTranslation
 - [X] GoogleAccountCredential
 - [X] GoogleShoppingAccount
 - [X] GoogleShoppingMerchantAccount
@@ -46,6 +50,8 @@ Implemented Models / Entities:
 - [X] NumberRangeTranslation
 - [X] NumberRangeType
 - [X] NumberRangeTypeTranslation
+- [X] PaymentMethod
+- [X] PaymentMethodTranslation
 - [X] Product
 - [X] ProductCrossSelling
 - [X] ProductCrossSellingTranslation

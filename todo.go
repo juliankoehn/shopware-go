@@ -12,8 +12,6 @@ type SnippetSet struct{}
 
 type User struct{}
 
-type PaymentMethodTranslation struct{}
-
 type SeoUrlTranslation struct{}
 
 type PromotionDiscountPrice struct{}
@@ -22,3 +20,6 @@ type PromotionSetGroup struct{}
 type Promotion struct{}
 
 type OrderDelivery struct{}
+
+type Plugin struct{}
+type OrderTransaction struct{}
