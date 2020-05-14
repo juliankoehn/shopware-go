@@ -1,3 +1,1 @@
-package Shopware
-
-type PromotionDiscountPrice struct {}
+package shopware

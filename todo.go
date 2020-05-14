@@ -12,13 +12,11 @@ type SnippetSet struct{}
 
 type User struct{}
 
-type CustomerGroupTranslation struct{}
 type PaymentMethodTranslation struct{}
 type ShippingMethodTranslation struct{}
-type DeliveryTimeTranslation struct{}
 type SeoUrlTranslation struct{}
 
-type ShippingMethodPrice struct{}
+type PromotionDiscountPrice struct{}
 type PromotionDiscount struct{}
 type PromotionSetGroup struct{}
 type Promotion struct{}

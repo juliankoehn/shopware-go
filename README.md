@@ -1,8 +1,5 @@
 TODO:
 [ ] 
-Customer
-CustomerAddress
-CustomerGroup
 
 Order
 OrderAddress
@@ -19,6 +16,11 @@ Implemented Models / Entities:
 
 - [X] Category
 - [X] CategoryTranslation
+- [X] Customer
+- [X] CustomerAddress
+- [X] CustomerGroup
+- [X] CustomerGroupTranslation
+- [X] CustomerRecovery
 - [X] Country
 - [X] CountryTranslation
 - [X] CountryState

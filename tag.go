@@ -6,7 +6,7 @@ type Tag struct {
 	Entity
 	Name                 string                 `json:"name"`
 	Products             []*Product             `json:"products"`
-	Media                []*Media               `json:"media"`
+	Media                []*MediaEntity         `json:"media"`
 	Categories           []*Category            `json:"categories"`
 	Customers            []*Customer            `json:"customers"`
 	orders               []*Order               `json:"orders"`
