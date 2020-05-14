@@ -52,7 +52,7 @@ type SalesChannel struct {
 	DocumentBaseConfigSalesChannels DocumentBaseConfigDefinition `json:"documentBaseConfigSalesChannels"`
 	ProductReviews                  []*ProductReview             `json:"productReviews"`
 	SeoUrls                         []*SeoUrl                    `json:"seoUrls"`
-	SeoURLTemplates                 []*SeoUrlTemplate            `json:"seoUrlTemplates"`
+	SeoURLTemplates                 []*SeoURlTemplate            `json:"seoUrlTemplates"`
 	MainCategories                  []*MainCategory              `json:"mainCategories"`
 	PaymentMethodIDs                []string                     `json:"paymentMethodIds"`
 	ProductExports                  []*ProductExport             `json:"productExports"`
