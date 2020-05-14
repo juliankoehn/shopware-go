@@ -2,8 +2,6 @@ package shopware
 
 type DocumentBaseConfigDefinition struct{}
 
-type PromotionSalesChannel struct{}
-
 type MailTemplateSalesChannel struct{}
 
 type SystemConfig struct{}
@@ -14,10 +12,11 @@ type User struct{}
 
 type SeoUrlTranslation struct{}
 
+type PromotionSalesChannel struct{}
 type PromotionDiscountPrice struct{}
 type PromotionDiscount struct{}
 type PromotionSetGroup struct{}
-type Promotion struct{}
+type PromotionTranslation struct{}
 
 type OrderDelivery struct{}
 
