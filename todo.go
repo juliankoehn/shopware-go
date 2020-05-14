@@ -17,3 +17,8 @@ type PaymentMethodTranslation struct{}
 type ShippingMethodTranslation struct{}
 type DeliveryTimeTranslation struct{}
 type SeoUrlTranslation struct{}
+
+type ShippingMethodPrice struct{}
+type PromotionDiscount struct{}
+type PromotionSetGroup struct{}
+type Promotion struct{}

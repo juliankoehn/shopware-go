@@ -8,7 +8,6 @@ Order
 OrderAddress
 OrderCustomer
 OrderLineItem
-Rule
 
 shippingMethods
 ShippingMethodPrice
@@ -65,6 +64,8 @@ Implemented Models / Entities:
 - [X] ProductStreamTranslation
 - [X] ProductTranslation
 - [X] ProductVisibility
+- [X] Rule
+- [X] RuleCondition
 - [X] Salutation
 - [X] SalutationTranslation
 - [X] SalesChannel
