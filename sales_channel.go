@@ -22,7 +22,7 @@ type SalesChannel struct {
 	Configuration                   []string                     `json:"configuration"`
 	Active                          bool                         `json:"active"`
 	Maintenance                     bool                         `json:"maintenance"`
-	MaintenanceIpWhitelist          []string                     `json:"maintenanceIpWhitelist"`
+	MaintenanceIPWhitelistgo        []string                     `json:"maintenanceIpWhitelist"`
 	SalesChannelType                *SalesChannelType            `json:"type"`
 	Currency                        *Currency                    `json:"currency"`
 	Language                        *Language                    `json:"language"`
@@ -52,7 +52,7 @@ type SalesChannel struct {
 	DocumentBaseConfigSalesChannels DocumentBaseConfigDefinition `json:"documentBaseConfigSalesChannels"`
 	ProductReviews                  []*ProductReview             `json:"productReviews"`
 	SeoUrls                         []*SeoUrl                    `json:"seoUrls"`
-	SeoUrlTemplates                 []*SeoUrlTemplate            `json:"seoUrlTemplates"`
+	SeoURLTemplates                 []*SeoUrlTemplate            `json:"seoUrlTemplates"`
 	MainCategories                  []*MainCategory              `json:"mainCategories"`
 	PaymentMethodIDs                []string                     `json:"paymentMethodIds"`
 	ProductExports                  []*ProductExport             `json:"productExports"`
