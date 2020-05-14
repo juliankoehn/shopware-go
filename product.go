@@ -74,7 +74,7 @@ type Product struct {
 	Stock                        int                                    `json:"stock"`
 	Tags                         []*Tag                                 `json:"tags"`
 	TagIDs                       []string                               `json:"tagIds"`
-	Tax                          TaxEntity                              `json:"tax"`
+	Tax                          Tax                                    `json:"tax"`
 	TaxID                        string                                 `json:"taxId"`
 	Translated                   ProductTranslation                     `json:"translated"`
 	Translations                 []*ProductTranslation                  `json:"translations"`
