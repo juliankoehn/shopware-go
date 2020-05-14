@@ -8,11 +8,11 @@ type SystemConfig struct{}
 
 type SnippetSet struct{}
 
+// User will not be implemented, Admin Stuff
 type User struct{}
 
 type SeoUrlTranslation struct{}
 
-type PromotionDiscountPrice struct{}
 type PromotionDiscount struct{}
 
 type OrderDelivery struct{}
