@@ -40,5 +40,3 @@ type Category struct {
 }
 
 type CmsPage struct{}
-
-type MainCategory struct{}

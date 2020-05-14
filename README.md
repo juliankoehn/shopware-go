@@ -35,6 +35,7 @@ Implemented Models / Entities:
 - [X] Language
 - [X] Locale
 - [X] LocaleTranslation
+- [X] MainCategory
 - [X] MediaFolder
 - [X] MediaFolderConfiguration
 - [X] MediaThumbnailSize
