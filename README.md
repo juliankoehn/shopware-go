@@ -51,6 +51,7 @@ NewsletterRecipient
 - [X] NumberRangeType
 - [X] NumberRangeTypeTranslation
 - [X] Order
+- [X] OrderAddress
 - [X] PaymentMethod
 - [X] PaymentMethodTranslation
 - [X] Product
