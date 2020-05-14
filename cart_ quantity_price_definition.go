@@ -79,6 +79,3 @@ func (q *QuantityPriceDefinition) GetConstraints() *Constraint {
 		Precision:    0,
 	}
 }
-
-// Verify that PriceDefinitionInterface implements QuantityPriceDefinition.
-var _ PriceDefinitionInterface = QuantityPriceDefinition{}
