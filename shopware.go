@@ -1,10 +1,15 @@
 package shopware
 
 import (
+	"encoding/json"
 	"fmt"
 	"io"
+	"log"
 	"net/http"
+	"net/http/httputil"
 	"net/url"
+
+	"moul.io/http2curl"
 )
 
 // Client model
@@ -12,9 +17,12 @@ type Client struct {
 	client        *http.Client
 	BaseURL       string
 	token         string
+	Debug         bool
 	QueryParams   map[string]string
 	Headers       map[string]string
 	commonService service
+
+	Products *ProductsService
 }
 
 type service struct {
@@ -33,6 +41,10 @@ func New(token, endpoint string) *Client {
 			"X-Shopware-User-Agent": fmt.Sprintf("sdk shopware.go/%s", Version),
 		},
 	}
+
+	c.commonService.c = c
+
+	c.Products = (*ProductsService)(&c.commonService)
 
 	return c
 }
@@ -67,4 +79,65 @@ func (c *Client) newRequest(method, path string, query url.Values, body io.Reade
 	}
 
 	return req, nil
+}
+
+func (c *Client) do(req *http.Request, v interface{}) error {
+	if c.Debug == true {
+		command, _ := http2curl.GetCurlCommand(req)
+		fmt.Println(command)
+	}
+
+	res, err := c.client.Do(req)
+	if err != nil {
+		return err
+	}
+
+	if res.StatusCode >= 200 && res.StatusCode < 400 {
+		if v != nil {
+			defer res.Body.Close()
+			err = json.NewDecoder(res.Body).Decode(v)
+			if err != nil {
+				return err
+			}
+		}
+
+		return nil
+	}
+
+	// parse api response
+	apiError := c.handleError(req, res)
+
+	return apiError
+}
+
+func (c *Client) handleError(req *http.Request, res *http.Response) error {
+	if c.Debug == true {
+		dump, err := httputil.DumpResponse(res, true)
+		if err != nil {
+			log.Fatal(err)
+		}
+
+		fmt.Printf("%q", dump)
+	}
+
+	var e ErrorResponse
+	defer res.Body.Close()
+
+	err := json.NewDecoder(res.Body).Decode(&e)
+	if err != nil {
+		return err
+	}
+
+	apiError := APIError{
+		req: req,
+		res: res,
+		err: &e,
+	}
+
+	switch res.StatusCode {
+	case 404:
+		return NotFoundError{apiError}
+	default:
+		return e
+	}
 }

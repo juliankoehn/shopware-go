@@ -2,6 +2,8 @@ package shopware
 
 import (
 	"fmt"
+	"io/ioutil"
+	"log"
 	"net/http"
 	"net/http/httptest"
 	"testing"
@@ -14,6 +16,17 @@ var (
 	token    = "SWSCOGXOAGGXCMLNODRQTMRQAA"    // testing endpoint
 	endpoint = "https://hundemode.julian.pro/" // testing endpoint
 )
+
+func readTestData(fileName string) string {
+	path := "testdata/" + fileName
+	content, err := ioutil.ReadFile(path)
+	if err != nil {
+		log.Fatal(err)
+		return ""
+	}
+
+	return string(content)
+}
 
 func checkHeaders(req *http.Request, assert *assert.Assertions) {
 	assert.Equal(token, req.Header.Get("sw-access-key"))
