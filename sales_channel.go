@@ -51,8 +51,8 @@ type SalesChannel struct {
 	PromotionSalesChannels          []*PromotionSalesChannel     `json:"promotionSalesChannels"`
 	DocumentBaseConfigSalesChannels DocumentBaseConfigDefinition `json:"documentBaseConfigSalesChannels"`
 	ProductReviews                  []*ProductReview             `json:"productReviews"`
-	SeoUrls                         []*SeoUrl                    `json:"seoUrls"`
-	SeoURLTemplates                 []*SeoURlTemplate            `json:"seoUrlTemplates"`
+	SeoUrls                         []*SeoURL                    `json:"seoUrls"`
+	SeoURLTemplates                 []*SeoURLTemplate            `json:"seoUrlTemplates"`
 	MainCategories                  []*MainCategory              `json:"mainCategories"`
 	PaymentMethodIDs                []string                     `json:"paymentMethodIds"`
 	ProductExports                  []*ProductExport             `json:"productExports"`

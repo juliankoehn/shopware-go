@@ -1,8 +1,8 @@
 package shopware
 
-// SeoUrl see:
+// SeoURL see:
 // https://github.com/shopware/platform/blob/6.2/src/Core/Content/Seo/SeoUrl/SeoUrlEntity.php
-type SeoUrl struct {
+type SeoURL struct {
 	Entity
 	SalesChannelID string        `json:"salesChannelId"`
 	LanguageID     string        `json:"languageId"`

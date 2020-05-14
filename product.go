@@ -69,7 +69,7 @@ type Product struct {
 	ReleaseDate                  string                                `json:"releaseDate"`
 	ReferenceUnit                float64                               `json:"referenceUnit"`
 	RestockTime                  int                                   `json:"restockTime"`
-	SeoUrls                      []*SeoUrl                             `json:"seoUrls"`
+	SeoUrls                      []*SeoURL                             `json:"seoUrls"`
 	ShippingFree                 bool                                  `json:"shippingFree"`
 	Stock                        int                                   `json:"stock"`
 	Tags                         []*Tag                                `json:"tags"`
