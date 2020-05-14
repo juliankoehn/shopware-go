@@ -36,5 +36,5 @@ type Category struct {
 	MetaDescription         string                 `json:"metaDescription"`
 	Keywords                string                 `json:"keywords"`
 	MainCategories          []*MainCategory        `json:"mainCategories"`
-	SeoUrls                 []*SeoUrl              `json:"seoUrls"`
+	SeoUrls                 []*SeoURL              `json:"seoUrls"`
 }
