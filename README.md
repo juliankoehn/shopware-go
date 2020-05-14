@@ -52,6 +52,7 @@ NewsletterRecipient
 - [X] NumberRangeTypeTranslation
 - [X] Order
 - [X] OrderAddress
+- [X] OrderDelivery
 - [X] OrderDeliveryPosition
 - [X] OrderLineItem
 - [X] OrderCustomer
