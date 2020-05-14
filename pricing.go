@@ -2,10 +2,6 @@ package shopware
 
 // https://github.com/shopware/platform/tree/6.2/src/Core/Framework/DataAbstractionLayer/Pricing
 
-// TODO
-type PriceCollection struct {
-}
-
 // Price see:
 // https://github.com/shopware/platform/blob/6.2/src/Core/Framework/DataAbstractionLayer/Pricing/Price.php
 type Price struct {
