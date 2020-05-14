@@ -6,7 +6,7 @@ type QuantityPriceDefinition struct {
 	Price                    float64                   `json:"price"`
 	TaxRules                 []*TaxRule                `json:"taxRules"`
 	Quantity                 int                       `json:"quantity"`
-	isCalculated             bool                      `json:"isCalculated"`
+	IsCalculated             bool                      `json:"isCalculated"`
 	Precision                int                       `json:"precision"`
 	ReferencePriceDefinition *ReferencePriceDefinition `json:"referencePriceDefinition"`
 	ListPrice                float64                   `json:"listPrice"`
@@ -46,8 +46,8 @@ func (q *QuantityPriceDefinition) SetQuantity(quantity int) {
 }
 
 // IsCalculated returns isCalculated
-func (q *QuantityPriceDefinition) IsCalculated() bool {
-	return q.isCalculated
+func (q *QuantityPriceDefinition) GetIsCalculated() bool {
+	return q.IsCalculated
 }
 
 // GetPrecision returns the precision
