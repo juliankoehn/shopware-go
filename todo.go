@@ -15,7 +15,6 @@ type SeoUrlTranslation struct{}
 type PromotionSalesChannel struct{}
 type PromotionDiscountPrice struct{}
 type PromotionDiscount struct{}
-type PromotionSetGroup struct{}
 
 type OrderDelivery struct{}
 
